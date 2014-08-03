@@ -1,0 +1,80 @@
+:host {
+  display: block;
+  max-width: 200px;
+}
+.field {
+  position: relative;
+}
+#date-input {
+  padding: 6px;
+}
+
+[icon="arrow-back"] {
+  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+}
+
+[icon="arrow-forward"] {
+  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+}
+
+#timer {
+  width: auto;
+  display: none;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  margin-left: 10px;
+  top: -10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#timer.show {
+  display: block;
+}
+.calendar-head {
+  background: #4285f4;
+  color: #fff;
+}
+#content {
+  margin-bottom: 10px;
+}
+.header {
+  text-align: center;
+}
+.days {
+  width: 40px;
+}
+.days.fade {
+  color: #c9c9c9;
+}
+.months {
+  width: 100px;
+}
+
+.years {
+  width: 60px;
+}
+.days.core-selected,
+.months.core-selected,
+.years.core-selected {
+  background-color: #c9c9c9;
+}
+
+paper-button.colored {
+  color: #4285f4;
+  fill: #4285f4;
+}
+
+paper-button[simpleButton].colored {
+  background: #4285f4;
+  color: #fff;
+}
