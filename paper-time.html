@@ -1,15 +1,15 @@
-<link rel="import" href="bower_components/polymer/polymer.html">
-<link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="bower_components/paper-button/paper-button.html">
-<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
-<link rel="import" href="bower_components/paper-input/paper-input.html">
-<link rel="import" href="bower_components/core-icons/core-icons.html">
-<link rel="import" href="bower_components/core-field/core-field.html">
-<link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
-<link rel="import" href="bower_components/core-selector/core-selector.html">
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="/bower_components/paper-button/paper-button.html">
+<link rel="import" href="/bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="/bower_components/paper-input/paper-input.html">
+<link rel="import" href="/bower_components/core-icons/core-icons.html">
+<link rel="import" href="/bower_components/core-field/core-field.html">
+<link rel="import" href="/bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" href="/bower_components/core-selector/core-selector.html">
 
-<script src="bower_components/moment/moment.js"></script>
-<script src="bower_components/moment-range/lib/moment-range.js"></script>
+<script src="/bower_components/moment/moment.js"></script>
+<script src="/bower_components/moment-range/lib/moment-range.js"></script>
 
 <!--
 ##### Example
@@ -23,7 +23,7 @@
   <template>
     <link rel="stylesheet" href="paper-time.css">
     <core-field class="field">
-      <paper-input floatingLabel label="Set date" value="{{ date }}" flex></paper-input>
+      <paper-input id="time-input" floatingLabel label="Set Time" value="{{ date }}" flex></paper-input>
       <core-icon icon="apps" on-click="{{ toggleInput }}"></core-icon>
       <div id="timer" >
         <paper-shadow z="2"></paper-shadow>

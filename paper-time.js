@@ -16,6 +16,7 @@ Polymer({
     this.items = [];
     this.updateNowDate = this.debounce(this._updateNowDate, 1000);
   },
+
   ready: function() {
     this.now = moment();
   },
@@ -23,7 +24,7 @@ Polymer({
     date: 'updateNowDate',
     now: 'updateInputDate'
   },
-  toggleInput: function() {
+  toggleInput: function(e) {
     this.$.timer.className = this.$.timer.className ? '' : 'show';
   },
   incHour: function() {
