@@ -6,7 +6,7 @@ Polymer({
        * @attribute format
        * @type string
        */
-    format: 'h:mmA',
+    format: 'h:mm A',
     date: null,
     hour: null,
     minute: null,
@@ -111,6 +111,6 @@ Polymer({
       minute = '0' + minute;
     }
 
-    return hour + ':' + minute + period;
+    return hour + ':' + minute + ' ' + period;
   }
 });
