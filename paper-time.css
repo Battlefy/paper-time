@@ -1,6 +1,7 @@
 :host {
   display: block;
   max-width: 200px;
+  outline: none;
 }
 .field {
   position: relative;
