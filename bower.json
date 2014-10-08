@@ -1,7 +1,7 @@
 {
   "name": "paper-time",
   "version": "0.0.0",
-  "keywords": "paper time",
+  "keywords": ["web-components"],
   "main": "paper-calendar.html",
   "dependencies": {
     "core-elements": "Polymer/core-elements#0.3.4",
